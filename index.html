@@ -33,111 +33,30 @@
       <div class="mdl-layout-spacer"></div>
 
       
-        <form method="POST">
-        <div>
-            <div class="left-side">
-                <div>
-                    <label>Full name:</label>
-                    <input type="text" name="full_name" />
-                </div>
-                <div>
-                    <label>Email:</label>
-                    <input type="text" name="email" />
-                </div>
-                <div>
-                    <label>Contact phone:</label>
-                    <input type="text" name="phone" />
-                </div>
-
-                <div>
-                    <label>Education:</label>
-                    <select name="education">
-                        <option value=""></option>
-                        <option value="school">High school</option>
-                        <option value="bachelor">Bachelor</option>
-                        <option value="master">Master</option>
-                        <option value="phd">PhD</option>
-                    </select>
-                </div>
-
-                <fieldset>
-                    <legend><b>Sex</b></legend>
-                    <label>
-                      <input type="radio" id="list-option-1" name="sex" value="male" /> Male
-                    </label>
-
-                    <label>
-                      <input type="radio" id="list-option-2" name="sex" value="female" /> Female
-                    </label>
-
-                    <label>
-                      <input type="radio" id="list-option-3" name="sex" value="notsure" /> Yes, please
-                    </label>
-                </fieldset>
-                <fieldset>
-                    <legend><b>Strong sides</b></legend>
-                    <label>
-                        <input type="checkbox" id="list-checkbox-1" checked />
-                        <span>Will code for food</span>
-                    </label>
-                    <label>
-                        <input type="checkbox" id="list-checkbox-2" checked />
-                        <span>Hate vacations</span>
-                    </label>
-                </fieldset>
-            </div> 
-            <div class="right-side">
-                <div>
-                    <label for="my-textarea">Describe your experience<br></label>
-                    <textarea rows="12" cols="50" name="description" id="my-textarea"></textarea>
-                </div>
-            </div>
-        </div>
-        <div class="info-section">
-            <table>
-              <thead>
-                <tr>
-                  <th>Days</th>
-                  <th>Worktime</th>
-                  <th>Break</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Mon-Fri</td>
-                  <td>09:00 - 17:00</td>
-                  <td>12:00 - 12:30</td>
-                </tr>
-                <tr>
-                  <td>Sat</td>
-                  <td>08:00 - 19:00</td>
-                  <td>12:00 - 12:15</td>
-                </tr>
-                <tr>
-                  <td>Sun</td>
-                  <td>06:00 - 22:00</td>
-                  <td>None</td>
-                </tr>
-              </tbody>
-            </table>
-            <fieldset>
-                <legend><b>We have offices in</b></legend>
-                <ul>
-                    <li>New York</li>
-                    <li>London</li>
-                    <li>Paris</li>
-                </ul>
-            </fieldset>
-        </div>
-
-        <div class="toolbar-section">
-            <button type="submit" name="submit">OK</button>
-            <button type="reset" name="reset">Cancel</button>
-        </div>
-        </form>
-      
-      <div class="mdl-layout-spacer"></div>
-    </div>
+<div class="mdl-layout mdl-js-layout mdl-color--grey-100">
+	<main class="mdl-layout__content">
+		<div class="mdl-card mdl-shadow--6dp">
+			<div class="mdl-card__title mdl-color--primary mdl-color-text--white">
+				<h2 class="mdl-card__title-text">Acme Co.</h2>
+			</div>
+	  	<div class="mdl-card__supporting-text">
+				<form action="#">
+					<div class="mdl-textfield mdl-js-textfield">
+						<input class="mdl-textfield__input" type="text" id="username" />
+						<label class="mdl-textfield__label" for="username">Username</label>
+					</div>
+					<div class="mdl-textfield mdl-js-textfield">
+						<input class="mdl-textfield__input" type="password" id="userpass" />
+						<label class="mdl-textfield__label" for="userpass">Password</label>
+					</div>
+				</form>
+			</div>
+			<div class="mdl-card__actions mdl-card--border">
+				<button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Log in</button>
+			</div>
+		</div>
+	</main>
+</div>
   
 </div>
 </table>
