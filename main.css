@@ -22,3 +22,7 @@
 .center{
   text-align:center;
 }
+
+.content-grid {
+  max-width: 960px;
+}
