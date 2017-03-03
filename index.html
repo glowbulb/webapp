@@ -12,46 +12,47 @@
 <body>
 
 <div class="content-grid mdl-grid">
-<div class="mdl-cell  mdl-cell--4-col">
+    <div class="mdl-cell  mdl-cell--4-col">
 
-    <div class="mdl-card mdl-shadow--4dp">
-        <div class="mdl-card__title mdl-color--primary mdl-color-text--white">
-            <h2 class="mdl-card__title-text">Le Form</h2>
+        <div class="mdl-card mdl-shadow--4dp">
+            <div class="mdl-card__title mdl-color--primary mdl-color-text--white">
+                <h2 class="mdl-card__title-text">Le Form</h2>
+            </div>
+        <div class="mdl-card__supporting-text">
+        <form action="#">
+            <div class="mdl-textfield mdl-js-textfield">
+                <input class="mdl-textfield__input" type="text" id="name" />
+                <label class="mdl-textfield__label" for="name">Name</label>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield">
+                <input class="mdl-textfield__input" type="text" id="age" />
+                <label class="mdl-textfield__label" for="age">Age</label>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield">
+                <input class="mdl-textfield__input" type="text" id="number" />
+                <label class="mdl-textfield__label" for="number">Number</label>
+            </div>
+        </form>
+        <div class="mdl-card__actions">
+            <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Le Submit</button>
         </div>
-    <div class="mdl-card__supporting-text">
-    <form action="#">
-        <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" id="name" />
-            <label class="mdl-textfield__label" for="name">Name</label>
         </div>
-        <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" id="age" />
-            <label class="mdl-textfield__label" for="age">Age</label>
-        </div>
-        <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" id="number" />
-            <label class="mdl-textfield__label" for="number">Number</label>
-        </div>
-    </form>
-    <div class="mdl-card__actions">
-        <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Le Submit</button>
-    </div>
-    </div>
 
 </div>
 
-<div class="mdl-cell mdl-cell--4-col">
+    <div class="mdl-cell mdl-cell--4-col">
 
-    <table id="table" class="mdl-data-table mdl-js-data-table mdl-shadow--4dp">
-    <thead>
-        <tr>
-        <th>Name</th>
-        <th>Age</th>
-        <th>Number</th>
-        </tr>
-    </thead>
-    </table>
+        <table id="table" class="mdl-data-table mdl-js-data-table mdl-shadow--4dp">
+        <thead>
+            <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Number</th>
+            </tr>
+        </thead>
+        </table>
 
+    </div>
 </div>
 
 <script src="./main.js"></script>
